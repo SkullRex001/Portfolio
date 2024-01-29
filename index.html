@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <nav>
+    <nav class="desktop-nav">
         <div class="logo">Satyajeet</div>
         <div>
             <ul class="nav-links">
@@ -19,6 +19,28 @@
                 <li><a href="#contacts">Contact</a></li>
             </ul>
         </div>
+    </nav>
+
+    <nav class="hamburger-nav">
+        <div class="logo">Satyajeet</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+              
+                    <li><a href="#about" toggleMenu() >About</a></li>
+                    <li><a href="#experience" toggleMenu()>Experience</a></li>
+                    <li><a href="#projects" toggleMenu()>Projects</a></li>
+                    <li><a href="#contacts" toggleMenu()>Contact</a></li>
+               
+            </div>
+
+        </div>
+
     </nav>
 
 
